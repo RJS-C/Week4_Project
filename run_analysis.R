@@ -4,6 +4,8 @@
 
 library(dplyr)
 library(sqldf)
+library(reshape2)
+
 source("retrieve_fresh_files.R")
 
 # store intended location of files extracted from downloaded zip file

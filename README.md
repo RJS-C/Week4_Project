@@ -4,6 +4,7 @@
 
 * dplyr
 * sqldf
+* reshape2
 
 ### Assumptions: 
 Data has not previously been downloaded & unzipped.

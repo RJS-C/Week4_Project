@@ -3,16 +3,16 @@ run_analysis.R will produce 2 data frames that are each a compilation of the raw
 Source: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 Resulting Data Frames:
-        Name:   SelectedData
-        Desc:   raw mean & standard deviation measurement data related for each subject for each activity, 
-                activity from the datasets from the source listed above - train & test subjects together.   
+Name:   SelectedData
+Desc:   raw mean & standard deviation measurement data related for each subject for each activity, 
+        activity from the datasets from the source listed above - train & test subjects together.   
 				
-				subjectid (int),activitydescription (character), variable1 (numeric), variable2 (numeric) ... etc.
+        subjectid (int),activitydescription (character), variable1 (numeric), variable2 (numeric) ... etc.
 
-        Name:   SummaryData
-        Desc:   Average value for each variable by each activity for each subject
+Name:   SummaryData
+Desc:   Average value for each variable by each activity for each subject
 		
-				subjectid (int),activitydescription (character), variable1 (numeric), variable2 (numeric) ... etc.
+	subjectid (int),activitydescription (character), variable1 (numeric), variable2 (numeric) ... etc.
 
 Subjects / SubjectID:
 ======================
